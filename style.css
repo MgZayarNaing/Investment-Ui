@@ -7,6 +7,7 @@
     font-family:'Poppins',sans-serif;
     text-decoration: none;
     color:#ffffff;
+    text-transform: capitalize;
 }
 html{
     overflow-x: hidden;
@@ -1022,7 +1023,7 @@ nav .navbar .nav-links .links li .arrow{
 }
 
 .deposit-bonus{
-    margin-top: 7rem;
+    margin-top:7rem;
     display: flex;
     padding:0 6% !important;
     flex-direction: column;
@@ -1040,10 +1041,12 @@ nav .navbar .nav-links .links li .arrow{
 .deposit-bonus .box p{
     color:#A5A5A5;
     font-size: 1.8rem;
+    text-transform: none;
 }
 
 .deposit-bonus .box span{
     font-size: .8rem;
+    text-transform: none;
 }
 
 .deposit-bonus .box .sector{
@@ -1072,11 +1075,13 @@ nav .navbar .nav-links .links li .arrow{
     font-size: .8rem;
     line-height: 1.5rem;
     color:#cccccc;
+    text-transform: none;
 }
 
 .deposit-bonus table{
     color:#cccccc;
     margin-bottom: 2rem;
+    text-transform: none;
 }
 
 .deposit-bonus table tr th,
@@ -1085,11 +1090,13 @@ nav .navbar .nav-links .links li .arrow{
     font-size: .9rem;
     padding:.7rem;
     text-align: left;
+    text-transform: none;
 }
 
 .deposit-bonus .heading{
     font-size: 1.5rem;
     color:#cccccc;
+    text-transform: none;
 }
 
 .deposit-bonus .gallery{
@@ -1106,6 +1113,7 @@ nav .navbar .nav-links .links li .arrow{
 .deposit-bonus .gallery p{
     font-size: .8rem;
     padding:.5rem;
+    text-transform: none;
 }
 
 .deposit-bonus .benefit-box{
@@ -1129,6 +1137,7 @@ nav .navbar .nav-links .links li .arrow{
 
 .deposit-bonus .benefit-box .box .data span{
     color:#384d7f;
+    text-transform: none;
 }
 
 .deposit-bonus .image{
@@ -1153,14 +1162,17 @@ nav .navbar .nav-links .links li .arrow{
 .deposit-bonus .term-and-conditions .heading{
     color:#384d7f;
     font-size: .8rem;
+    text-transform: none;
 }
 
 .deposit-bonus .term-and-conditions p{
     font-size: .8rem;
+    text-transform: none;
 }
 
 .deposit-bonus .term-and-conditions p span{
     color:#6521BD;
+    text-transform: none;
 }
 
 
@@ -1197,7 +1209,7 @@ nav .navbar .nav-links .links li .arrow{
         left:-100%;
         max-width:270px;
         width:100%;
-        background:#000;
+        background:#000000;
         padding:20px;
         line-height: 40px;
         transition: all 0.5s ease;
@@ -1225,9 +1237,11 @@ nav .navbar .nav-links .links li .arrow{
     nav .navbar .nav-links .links{
         display:block;
         margin-top:20px;
+        background:#000000;
     }
     nav .navbar .nav-links .links li{
         display:block;
+        background:#000000;
     }
     nav .navbar .nav-links .links li .user{
         line-height: 50px;
@@ -1272,6 +1286,9 @@ nav .navbar .nav-links .links li .arrow{
     }
     .withdraw{
         margin-top:9rem;
+    }
+    .deposit-bonus{
+        margin-top: 9rem;
     }
 }
 
