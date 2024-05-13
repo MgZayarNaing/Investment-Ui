@@ -38,7 +38,7 @@ nav{
     left:0;
     width:100%;
     height:70px;
-    background:transparent;
+    background:#000000;
     backdrop-filter: blur(10px);
     box-shadow:0 .5rem 1.5rem rgba(0,0,0,0.4);
 }
@@ -98,7 +98,8 @@ nav .navbar .nav-links .links li .arrow{
     position:absolute;
     top:70px;
     left:0;
-    background:transparent;
+    background:#000000;
+    z-index:10000000;
     backdrop-filter: blur(10px);
     line-height:40px;
     border-radius: 0 0 4px 4px;
@@ -846,6 +847,7 @@ nav .navbar .nav-links .links li .arrow{
 .account .image{
     width:100%;
     height:16rem;
+    z-index:-1000000;
     position: relative;
     overflow: hidden;
 }
