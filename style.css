@@ -5,7 +5,6 @@
     padding:0;
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
-    text-transform: capitalize;
     text-decoration: none;
     color:#ffffff;
 }
@@ -28,7 +27,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: .5rem;
 }
 body{
-    background:#222;
+    background:#000000;
 }
 section{
     padding:0 4%;
@@ -482,7 +481,7 @@ nav .navbar .nav-links .links li .arrow{
 
 .trading .trading-container .grid-sector .trading-box,
 .trading .trading-container .flex-sector .trading-box{
-    box-shadow:0 .5rem 1.5rem #3792AD;
+    box-shadow: -1px 0px 20px 0px rgb(69 183 216 / 49%) !important;
     padding:3rem 2rem;
     background:#000;
     border-radius: 1rem;
@@ -1018,6 +1017,148 @@ nav .navbar .nav-links .links li .arrow{
     font-size: .8rem;
     font-weight: bold;
     padding-right: 10%;
+}
+
+.deposit-bonus{
+    margin-top: 7rem;
+    display: flex;
+    padding:0 6% !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deposit-bonus .box{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding:2rem;
+    box-shadow: -1px 0px 20px 0px rgb(69 183 216 / 49%) !important;
+}
+
+.deposit-bonus .box p{
+    color:#A5A5A5;
+    font-size: 1.8rem;
+}
+
+.deposit-bonus .box span{
+    font-size: .8rem;
+}
+
+.deposit-bonus .box .sector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deposit-bonus .box .sector a{
+    background:#BA8864;
+    padding:.5rem 2rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+}
+
+.deposit-bonus .text-box{
+    margin:2rem auto;
+}
+
+.deposit-bonus .text-box span{
+    color:#CCCCCC;
+    font-size: 1.5rem;
+}
+
+.deposit-bonus .text-box p{
+    font-size: .8rem;
+    line-height: 1.5rem;
+    color:#cccccc;
+}
+
+.deposit-bonus table{
+    color:#cccccc;
+    margin-bottom: 2rem;
+}
+
+.deposit-bonus table tr th,
+.deposit-bonus table tr td{
+    color:#cccccc;
+    font-size: .9rem;
+    padding:.7rem;
+    text-align: left;
+}
+
+.deposit-bonus .heading{
+    font-size: 1.5rem;
+    color:#cccccc;
+}
+
+.deposit-bonus .gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:1rem;
+    margin:2rem 0;
+}
+
+.deposit-bonus .gallery .gallery-box{
+    text-align: center;
+}
+
+.deposit-bonus .gallery p{
+    font-size: .8rem;
+    padding:.5rem;
+}
+
+.deposit-bonus .benefit-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:2rem;
+    margin:2rem 0 3rem 0;
+}
+
+.deposit-bonus .benefit-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deposit-bonus .benefit-box .box .data{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.deposit-bonus .benefit-box .box .data span{
+    color:#384d7f;
+}
+
+.deposit-bonus .image{
+    width:96%;
+    margin:1.5rem 0 3rem 0;
+}
+
+.deposit-bonus .image img{
+    width:100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: .5rem;
+}
+
+.deposit-bonus .term-and-conditions{
+    display: flex;
+    flex-direction: column;
+    gap:.7rem;
+    margin:2rem 0;
+}
+
+.deposit-bonus .term-and-conditions .heading{
+    color:#384d7f;
+    font-size: .8rem;
+}
+
+.deposit-bonus .term-and-conditions p{
+    font-size: .8rem;
+}
+
+.deposit-bonus .term-and-conditions p span{
+    color:#6521BD;
 }
 
 
